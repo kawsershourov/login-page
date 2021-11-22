@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+/* Global CSS */
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body 
+{
+	font-family: 'Poppins', sans-serif;
+}
+h1 h1 h2 h3 h4 h5 h6
+{
+	font-family: 'Poppins', sans-serif;
+}
+/*login page*/
+.login-page
+{
+	background: url(../images/aaa.jpg) no-repeat center;
+	background-size: cover;
+	
+	z-index: +1;
+
+	
+}
+.login-page::after
+{
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.6);
+	z-index: -1;
+	
+}
+.login-box
+{
+	background: blur;
+	border: 2px solid #f7f7f7;
+	height: 500px;
+	width: 300px;
+	margin: 80px auto 0;
+	padding: 20px;
+
+}
+.avater img 
+{
+	height: 100px;
+	width:300px;
+	display: block;
+	margin: 30px auto;
+
+}
+.login-box h2
+{
+	color: #fff;
+    font-size: 17px;
+    font-weight:400px;
+    margin-bottom: 30px;
+
+}
+.login-form label
+{
+    font-weight: 400;
+	display: block;
+	color: #fff;
+}
+.form-group
+{
+	margin-bottom: 15px;
+}
+.form-control
+{
+    height: 30px;
+    width: 97%;
+    border: 1px solid #c3bfbf;
+    outline: none;
+    padding: 0 5px;
+}
+.btn-login
+{
+	padding: 6px 40px;
+    font-size: 16px;
+    text-transform: capitalize;
+    background: #0069B5;
+    color: #fff;
+    border: none;
+    transition: 0.3s all ease-in-out;
+}
+.btn-login:hover
+{
+	background: #3CA4DD;
+	cursor: pointer;
+}
+.action-links
+{
+	padding: 20px 0 0;
+}
+.action-links ul li
+{
+	color: #fff;
+	list-style: none;
+	line-height: 28px;;
+}
+.action-links ul li a
+{
+	color:  #0069B5;
+	transition: 0.3s all ease-in-out;
+}
+.action-links ul li a:hover{
+	padding-left: 5px;
+}
+
+
+
+/*register page*/
+
+.Register
+{
+	background: url(../images/reg.png) no-repeat center;
+	background-size: cover; 
+}
+.Register::after
+{
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.8);
+	z-index: -1;
+	
+}
+.register-box
+{
+	background: rgba(255, 255, 255, .1);
+	border: 2px solid #f7f7f7;
+	height: 530px;
+	width: 300px;
+	margin: 80px auto 0;
+	padding: 20px;
+}
+.regavater img 
+{
+	height: 100px;
+	width:300px;
+	display: block;
+	margin: 10px auto;
+
+}
+.register-box h2
+{
+	color: #fff;
+    font-size: 17px;
+    font-weight:400px;
+    margin-bottom: 20px;
+
+}
+.regform-control
+{
+	 height: 30px;
+    width: 97%;
+    border: 1px solid #c3bfbf;
+    outline: none;
+    padding: 0 5px;
+}
+
+.reglogin-form label
+{
+    font-weight: 400;
+	display: block;
+	color: #fff;
+}
+.regform-group
+{
+	margin-bottom: 15px;
+}
+
+.regbtn-login
+{
+	padding: 6px 40px;
+    font-size: 16px;
+    text-transform: capitalize;
+    background: #0069B5;
+    color: #fff;
+    border: none;
+    transition: 0.3s all ease-in-out;
+}
+.regbtn-login:hover
+{
+	background: #3CA4DD;
+	cursor: pointer;
+}
+.regaction-links
+{
+	padding: 8px 0 0;
+}
+.regaction-links ul li
+{
+	color: #fff;
+	list-style: none;
+	line-height: 28px;
+	margin-left: 100px;
+}
+.regaction-links ul li a
+{
+	color:  #0069B5;
+	transition: 0.3s all ease-in-out;
+}
+.regaction-links ul li a:hover{
+	padding-left: 5px;
+}
+
+
+
+.forget
+{
+	background: url(../images/forget.jpg) no-repeat center;
+	background-size: cover;
+
+}
+.forget::after
+{
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.7);
+	z-index: -1;
+}
+.forget-box
+{
+	background: rgba(255, 255, 255, .1);
+	border: 2px solid #f7f7f7;
+	height: 500px;
+	width: 300px;
+	margin: 80px auto 0;
+	padding: 20px;
+}
+.forget-box h2
+{
+	color: #fff;
+    font-size: 17px;
+    font-weight:400px;
+    margin-bottom: 25px;
+
+}
+.forget-form label
+{
+    font-weight: 400;
+	display: block;
+	color: #fff;
+}
+.forgetform-group
+{
+	margin-bottom: 30px;
+	
+}
+.foegetbtn-login:hover
+{
+	background: #3CA4DD;
+	cursor: pointer;
+}
+.foegetbtn-login
+{
+	padding: 6px 40px;
+    font-size: 16px;
+    text-transform: capitalize;
+    background: #0069B5;
+    color: #fff;
+    border: none;
+    transition: 0.3s all ease-in-out;
+    margin-left: 50px;
+
+px
+;
+}
+ .foraction-links
+{
+	margin-top: 60px;
+	margin-left: 100px;
+}
+.foraction-links ul li
+{
+	color: #fff;
+	list-style: none;
+	line-height: 28px;
+	
+;
+
+}
+.foraction-links ul li a
+{
+	color:  #0069B5;
+	transition: 0.3s all ease-in-out;
+
+}
+.foraction-links ul li a:hover{
+	padding-left: 5px;
+}
